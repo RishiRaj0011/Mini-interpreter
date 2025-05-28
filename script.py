@@ -9,6 +9,7 @@ from interpreter import Interpreter
 import re
 from ast_nodes import *  # Import all AST node classes at the top of script.py
 
+# tooltip helper 
 # --- Tooltip Helper ---
 class ToolTip:
     def __init__(self, widget, text):
@@ -40,6 +41,7 @@ class ToolTip:
             tw.destroy()
 
 # ---------- Functions ----------
+# function
 
 def go_to_learning():
     """Show the learning screen."""
