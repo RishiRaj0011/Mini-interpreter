@@ -2250,3 +2250,4 @@ back_button.bind("<Enter>", lambda e: back_button.config(bg="#0097A7"))
 back_button.bind("<Leave>", lambda e: back_button.config(bg=colors["accent2"]))
 
 root.mainloop()
+#code completed
