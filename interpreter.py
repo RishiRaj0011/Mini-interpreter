@@ -247,3 +247,4 @@ class Interpreter:
             raise Exception("Failed to parse code")
         return self.interpret(ast)
         #hello
+#completed
