@@ -2244,6 +2244,8 @@ back_button = tk.Button(
 back_button.pack(side="right", padx=20)
 
 # Add hover effects
+# hover project
+# Last part
 analyze_button.bind("<Enter>", lambda e: analyze_button.config(bg="#1565C0"))
 analyze_button.bind("<Leave>", lambda e: analyze_button.config(bg=colors["accent1"]))
 back_button.bind("<Enter>", lambda e: back_button.config(bg="#0097A7"))
